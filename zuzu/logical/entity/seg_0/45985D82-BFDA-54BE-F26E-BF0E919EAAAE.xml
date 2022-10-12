@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45985D82-BFDA-54BE-F26E-BF0E919EAAAE" name="product">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-10-12 09:41:19 UTC</createdTime>
+<ownerDesignName>zuzu</ownerDesignName>
+<engineerTo>
+<item key="4D7FDB6D-FA3A-0102-C2F3-D413A1DA698A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9A570B57-C967-A0D6-48B2-EA5F9E7177A3">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-10-12 09:42:36 UTC</createdTime>
+<ownerDesignName>zuzu</ownerDesignName>
+<engineerTo>
+<item key="4D7FDB6D-FA3A-0102-C2F3-D413A1DA698A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="A35D47EB-60B6-5614-1853-7391EEC23D5F">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-10-12 09:42:42 UTC</createdTime>
+<ownerDesignName>zuzu</ownerDesignName>
+<engineerTo>
+<item key="4D7FDB6D-FA3A-0102-C2F3-D413A1DA698A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sushi name" id="6E65D0F2-C36D-818A-409A-2E3CC40B3D56">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-10-12 09:57:26 UTC</createdTime>
+<ownerDesignName>zuzu</ownerDesignName>
+<engineerTo>
+<item key="4D7FDB6D-FA3A-0102-C2F3-D413A1DA698A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9FFFC20B-40E0-A3BF-1D74-89E93DA77C49" name="product PK">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-10-12 09:42:39 UTC</createdTime>
+<ownerDesignName>zuzu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4D7FDB6D-FA3A-0102-C2F3-D413A1DA698A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A570B57-C967-A0D6-48B2-EA5F9E7177A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

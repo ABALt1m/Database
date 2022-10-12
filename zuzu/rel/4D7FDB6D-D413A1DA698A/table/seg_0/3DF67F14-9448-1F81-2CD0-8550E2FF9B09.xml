@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DF67F14-9448-1F81-2CD0-8550E2FF9B09" name="product">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-10-12 09:43:34 UTC</createdTime>
+<generatorID>45985D82-BFDA-54BE-F26E-BF0E919EAAAE</generatorID>
+<ownerDesignName>zuzu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="AB5222CF-1633-5912-A4B4-F6B2CBAB13CC">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-10-12 09:43:34 UTC</createdTime>
+<generatorID>9A570B57-C967-A0D6-48B2-EA5F9E7177A3</generatorID>
+<ownerDesignName>zuzu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="8CA0C383-AF30-18BB-25FE-3FE920A5F3D9">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-10-12 09:43:34 UTC</createdTime>
+<generatorID>A35D47EB-60B6-5614-1853-7391EEC23D5F</generatorID>
+<ownerDesignName>zuzu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sushi_name" id="DB6DE624-2C4E-FBEC-F8A7-9BDC9F1C2B7B">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-10-12 09:58:18 UTC</createdTime>
+<generatorID>6E65D0F2-C36D-818A-409A-2E3CC40B3D56</generatorID>
+<ownerDesignName>zuzu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="959ED71E-04A0-FEAA-1AA0-8786B7DB112F" name="product_PK">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-10-12 09:43:34 UTC</createdTime>
+<generatorID>9FFFC20B-40E0-A3BF-1D74-89E93DA77C49</generatorID>
+<ownerDesignName>zuzu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB5222CF-1633-5912-A4B4-F6B2CBAB13CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
